@@ -1,2 +1,2 @@
-# Project2-Doodler-Jump
-Doodler Jump Project
+# Project2: Doodler Jump
+This project was developed using a combination of HTML, CSS, and JavaScript. During my project work, I prioritized the development of strong JavaScript logic over styling considerations. This approach allowed me to gain valuable experience in coding with JavaScript and become proficient in using a wide range of methods - including more than 30 methods. Through this process, I gained usage of the real-world applications of these techniques and their ability to enhance user experiences.
