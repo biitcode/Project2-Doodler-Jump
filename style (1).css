@@ -1,0 +1,84 @@
+body{
+  font-family: 'Unbounded', cursive;
+  background-color: rgb(88, 45, 45)
+}
+.GrandGrid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  font-size: 70px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: rgb(252, 45, 79);
+  background-image: url('background/background6.jpg');
+}
+
+.doodler {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  background-image: url('doodlerGuy/astronaut4.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-color: rgb(99, 219, 99);
+  position: absolute;
+  background-image: url('platform/platform.png');
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.button{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(252, 45, 79);
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: background-color .05s, color .05s, padding .2s;
+}
+.button:hover{
+  padding: 25px 60px;
+}
+.button:active{
+  background-color: white;
+  color: rgb(252, 45, 79);
+}
+
+.leave-button{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 66, 139);;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: background-color .05s, color .05s, padding .2s;
+}
+.leave-button:hover{
+  padding: 30px 100px;
+}
+.leave-button:active{
+  background-color: white;
+  color:rgb(42, 66, 139);
+}
